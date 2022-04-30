@@ -1,0 +1,17 @@
+﻿<Page x:Class="MultiScreenApp.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:MultiScreenApp"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Page2">
+
+    <Grid>
+        <Image HorizontalAlignment="Left" Height="295" Margin="10,79,0,0" VerticalAlignment="Top" Width="442" Source="/kitten-ge6717bf7b_1920.jpg"/>
+        <Button x:Name="NextPage" Content="Next Page" HorizontalAlignment="Left" Height="60" Margin="536,115,0,0" VerticalAlignment="Top" Width="182" Click="NextPage_Click"/>
+        <Button x:Name="PreviousPage" Content="Previous Page" HorizontalAlignment="Left" Height="65" Margin="536,225,0,0" VerticalAlignment="Top" Width="182" Click="PreviousPage_Click"/>
+
+    </Grid>
+</Page>

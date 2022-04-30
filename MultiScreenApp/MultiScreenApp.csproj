@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="animal-g734291fad_1920.jpg" />
+    <None Remove="kitten-ge6717bf7b_1920.jpg" />
+    <None Remove="kitty-g0dc3ce50c_1920.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="animal-g734291fad_1920.jpg" />
+    <Resource Include="kitten-ge6717bf7b_1920.jpg" />
+    <Resource Include="kitty-g0dc3ce50c_1920.jpg" />
+  </ItemGroup>
+
+</Project>
